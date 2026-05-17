@@ -3,7 +3,7 @@ package service;
 import javax.swing.JOptionPane;
 
 public class MatrizSistema {
-    public int[][] Ler(int[][] matriz, int cont) {
+    public int[][] Ler(int[][] matriz, int cont) {//Método para ler o array
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 String input = JOptionPane.showInputDialog(null, "Digite o valor da posição [" + i + "][" + j + "]",
@@ -25,7 +25,7 @@ public class MatrizSistema {
         return matriz;
     }
     
-    public int[][] Soma(int[][] matriz1, int[][] matriz2) {
+    public int[][] Soma(int[][] matriz1, int[][] matriz2) {//Método para somar o array
         int[][] resultado = new int[2][2];
         for (int i = 0; i < matriz1.length; i++) {
             for (int j = 0; j < matriz1[i].length; j++) {
@@ -35,7 +35,7 @@ public class MatrizSistema {
         return resultado;
     }
 
-    public void Exibir(int[][] matriz1, int[][] matriz2, int[][] resultado) {
+    public void Exibir(int[][] matriz1, int[][] matriz2, int[][] resultado) {//Método para exibir a matriz número 1, número 2 e a soma delas
         StringBuilder sM1 = new StringBuilder();
         StringBuilder sM2 = new StringBuilder();
         StringBuilder sM3 = new StringBuilder();
@@ -49,7 +49,7 @@ public class MatrizSistema {
         JOptionPane.showMessageDialog(null, "A soma das matrizes é:\n"+sM3.toString(), "Soma das Matrizes", JOptionPane.INFORMATION_MESSAGE);
     }
 
-    public StringBuilder MontarMatriz(int[][] matriz) {
+    public StringBuilder MontarMatriz(int[][] matriz) {//Método que cria um objeto de StringBuilder para deixar a visualização da matriz melhor
         StringBuilder sb = new StringBuilder();
 
         for (int[] linha : matriz) {

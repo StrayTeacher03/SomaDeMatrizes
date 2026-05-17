@@ -13,6 +13,7 @@ Exibir as operações
 
 ## Como executar:
 1- Compile o programa
+
 2- Execute a classe principal na pasta app
 
 ## Exemplos de uso:
@@ -22,8 +23,11 @@ Entrada:
 5, 6, 6, 8
 
 Saída:
+
 Matriz 1: 3, 4, 4, 4
+
 Matriz 2: 5, 6, 6, 8
+
 Resultado: 8, 10, 10, 12
 
 # Tecnologias:
