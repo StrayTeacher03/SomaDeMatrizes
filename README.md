@@ -1,13 +1,13 @@
-# Vetor de Números
+# Soma das Matrizes
 
 ## Descrição:
-Programa que lê 5 números inteiros e os guarda em um array unidimensional, tem operações como:
+Programa que lê 2 Matrizes bidimensionais e as soma e guarda em uma matriz resultado, tem operações como:
 
-Verificar maior número par
+Ler a Matriz
 
-Verificar menor número ímpar
+Fazer a soma
 
-Exibir todas as operações
+Exibir as operações
 
 
 
@@ -17,13 +17,14 @@ Exibir todas as operações
 
 ## Exemplos de uso:
 Entrada:
-3, 4, 4, 4, 5
+3, 4, 4, 4
+
+5, 6, 6, 8
 
 Saída:
-Maior par: 4
-Menor ímpar: 3
-Soma: 20
-Média: 4
+Matriz 1: 3, 4, 4, 4
+Matriz 2: 5, 6, 6, 8
+Resultado: 8, 10, 10, 12
 
 # Tecnologias:
 - Java 21
